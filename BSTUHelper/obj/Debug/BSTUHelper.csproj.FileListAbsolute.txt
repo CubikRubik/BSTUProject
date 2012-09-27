@@ -1,0 +1,5 @@
+D:\Projects\BSTU\BSTUHelper\BSTUHelper\bin\BSTUHelper.dll
+D:\Projects\BSTU\BSTUHelper\BSTUHelper\bin\BSTUHelper.pdb
+D:\Projects\BSTU\BSTUHelper\BSTUHelper\obj\Debug\BSTUHelper.csprojResolveAssemblyReference.cache
+D:\Projects\BSTU\BSTUHelper\BSTUHelper\obj\Debug\BSTUHelper.dll
+D:\Projects\BSTU\BSTUHelper\BSTUHelper\obj\Debug\BSTUHelper.pdb

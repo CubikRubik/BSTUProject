@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BSTUHelper.Site" %>
+
+<%@ Register Src="~/WebControls/Navigation.ascx" TagPrefix="uc1" TagName="Navigation" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <script src="scripts/elegant-press.js" type="text/javascript"></script>
+    <link href="Content/main.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="main-container">
+            <header>
+                <h1><a href="index.html">БГТУ</a></h1>
+                <p id="tagline"><strong></strong></p>
+            </header>
+        </div>
+        <div class="main-container">
+            <div id="sub-headline">
+                <div class="tagline_left">
+                    <p id="tagline2">TODO: REGISTTRATION HERE!!! Tel: 4444 | Mail: <a href="mailto:email@website.com">email@website.com</a></p>
+                </div>
+                <div class="tagline_right">
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>Site Search</legend>
+                            <input type="text" value="Search Our Website&hellip;" onfocus="if (this.value == 'Search Our Website&hellip;') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search Our Website&hellip;';}" />
+                            <input type="submit" name="go" id="go" value="Search" />
+                        </fieldset>
+                    </form>
+                </div>
+                <br class="clear" />
+            </div>
+        </div>
+        <div class="main-container">
+            <uc1:Navigation runat="server" id="Navigation" />
+        </div>
+        <div class="main-container">
+            <div class="container1">
+                <asp:ContentPlaceHolder ID="plhMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <footer>
+            <p class="tagline_left">Copyright &copy; 2012 - All Rights Reserved - <a href="#">Domain Name</a></p>
+            <p class="tagline_right">Design by <a href="http://www.priteshgupta.com/" title="Pritesh Gupta" target="_blank">PriteshGupta.com</a></p>
+            <br class="clear" />
+        </footer>
+        <br />
+        <br />
+    </form>
+</body>
+</html>
